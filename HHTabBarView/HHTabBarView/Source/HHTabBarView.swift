@@ -37,7 +37,8 @@ public class HHTabBarView: UIView {
     public static var shared = HHTabBarView()
     
     ///For Internal Navigation
-    private(set) public var referenceUITabBarController =  UITabBarController()
+    //    for customized tabbarcontroller
+    private var referenceUITabBarController =  UITabBarController()
     
     // MARK: Setters
     ///Animation Type. Default: none.
